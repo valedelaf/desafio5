@@ -1,0 +1,28 @@
+body{
+    font-family: Roboto;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.listatareas{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+.containertareas{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.checkbox{
+    margin-left: 80%;
+}
+  #tareas li span {
+    margin-right: 50px;
+  }
+

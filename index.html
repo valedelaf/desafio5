@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do List </title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <script src="https://kit.fontawesome.com/4efbbf109f.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1> To do List </h1>
+
+        <p> Agrega tu nueva tarea aquí </p>
+        <img src="https://www.clipartkey.com/mpngs/m/4-40897_red-down-arrow-red-arrow-down-png.png" style="width:50px;">
+    <div>
+        <input id="nuevatarea">
+        <button id="agregartarea"> Agregar </button>
+    </div>
+    <div class="container">
+    <div class="containertareas">
+    <div class="listatareas">
+        <p> ID </p>
+        <p> Tarea </p>
+        <p> Acción </p>
+    </div>
+    <ul id="tareas" style="list-style: none;"></ul>
+    </div>
+    <div style="margin-top: 30px;">
+        <p> Total: <span id="tareasTotal"> </span> </p>
+        <p> Realizadas: <span id="tareasCompletadas"> </span> </p>
+    </div>
+</div>
+<script src="./assets/js/script.js"></script>
+</body>
+</html>
